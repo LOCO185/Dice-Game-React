@@ -130,9 +130,12 @@ class Game extends Component {
             className="winningScore"
             type="number"
             name="winning score"
+            min={0}
             value={this.state.winningScore}
             onChange={(event) => {
-              this.setState({ winningScore: event.target.value });
+             if (event.target.value < 0) {
+               event.target.value = 0;
+             } this.setState({ winningScore: event.target.value });
             }}
           />
         </label>

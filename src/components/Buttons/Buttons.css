@@ -8,6 +8,7 @@ button {
   cursor: pointer;
   margin: 5px;
   border-radius: 10px;
+  font-family: 'special elite';
 }
 button:hover {
   background-color: #131313;

@@ -1,0 +1,13 @@
+.diceContainer {
+  display: flex;
+  justify-content: space-between;
+  bottom: 20vh;
+  width: 30vw;
+  height: max-content;
+}
+.diceContainer img {
+  width: auto;
+  height: auto;
+  max-height: 30vh;
+  border: 2px solid black;
+}

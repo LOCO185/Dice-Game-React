@@ -1,0 +1,34 @@
+.playerScoreCard {
+  background-color: rgb(43, 56, 49);
+  height: 30vh;
+  min-width: 48vw;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1vh 1vh;
+  padding-right: 2vh;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.playerName {
+  font-size: 7vh;
+  flex: 1;
+}
+.currentScore,
+.wins {
+  margin-right: 3vh;
+  font-size: 7vh;
+  color: rgb(71, 104, 216);
+}
+.scoreKeeper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.scoreKeeper h2 {
+  margin: 0;
+  padding: 0;
+}

@@ -9,9 +9,9 @@
 
 # Project Build
 ## This is how the game looks like :
-![Main](project_img/game_snapshot.png)
+![Main](screenshots/game_snapshot.png)
 ## When you win a game :
-![Figma1](project_img/winner_screen.png)
+![Figma1](screenshots/winner_screen.png)
 
 # Project Funcions
 # I used multiple functions to build the logic of this game
